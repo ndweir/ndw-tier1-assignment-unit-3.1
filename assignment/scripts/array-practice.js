@@ -47,12 +47,12 @@ let secondAnimal = animalArray[1];
 //      sure that your code does what you want. (Never trust your code until
 //      you have proof that it works!)
 let lastAnimal = animalArray[3];
-//console.log(lastAnimal);
+
 
 // 3.c. (STRETCH) TODO: Refactor 3.b to use the `animalArray` variable's .length 
 //       property, rather than the exact (hardcoded) index number of the last item.
-
-
+lastAnimal = animalArray[animalArray.length - 1];
+console.log(lastAnimal);
 
 // Adding & Removing Array Items
 //console.log('--- 4. Adding and removing array items ---');
@@ -144,7 +144,7 @@ let gemString = gems.join(' and ');
 //     Now, console.log the new array.
 let colorfulGems = gems.concat(colors);
 //console.log(gems);
-console.log(colorfulGems);
+//console.log(colorfulGems);
 
 
 
